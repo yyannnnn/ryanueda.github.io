@@ -1,0 +1,199 @@
+body { 
+    background: url(../imgs/4k9.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond', serif;
+    src:url("Cormorant_Garamond/CormorantGaramond-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src:url(Montserrat/Montserrat-Light.ttf) format("truetype");
+}
+
+h1 {
+    margin-top: 25%;
+    margin-left: 0.5%;
+    color: white;
+    font-family: Garamond;
+    font-weight:600;
+    font-size:700%;
+    text-align: center;
+    transition: transform .2s;
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+h1:hover {
+    color: black;
+    transform: scale(1.7);
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;; */
+}
+
+
+.linkContain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.5%;
+}
+
+.contactme {
+    width: 140px;
+    height: 40px;
+    margin: auto;
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black; */
+    border: 2px solid white;
+}
+
+.contactme:hover {
+    background-color: black;
+    box-shadow: 5px 13px 10px rgb(29, 29, 29);
+}
+
+p {
+    font-size: 100%;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-family:Montserrat;
+    font-weight:500;
+    margin-top: 5%;
+}
+
+p:hover {
+    color: white;
+}
+
+.sociallink {
+    text-decoration: none;
+    float: left;
+}
+
+.galleria {
+    width: 140px;
+    height: 40px;
+    margin: auto;
+    border: 2px solid white;
+}
+
+.galleria:hover {
+    background-color: black;
+    box-shadow: 5px 13px 10px rgb(29, 29, 29);
+}
+
+.gallerialink {
+    text-decoration: none;
+    float: left;
+    padding-right: 1%;
+}
+
+
+.card {
+    width: 30%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 80px;
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+/*dropdown*/
+.dropbtn {
+    /* background-color: transparent; */
+    background-color: #dddada;
+    height: 50px;
+    font-size: 17px;
+    padding-top: 1px;
+    margin-left: 10px;
+    border: none;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+ 
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color: #ddd;}
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+.dropdown:hover .dropbtn {background-color: #C8A2C8;}
+
+
+#slayed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.5%;
+    color: black;
+}
+
+#slayed:hover {
+    color: black;
+}
+
+.slayer {
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.5%;
+}
+
+h6 {
+    margin-top: 10%;
+    font-family: Abril Fatface;
+    font-weight: 100;
+    /* -webkit-text-stroke-width: 0.3px; */
+    /* -webkit-text-stroke-color: white;; */
+}
+
+
+/* .bodyImage {
+    width: 60%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    background-image: url(../imgs/bluesky.jpeg);
+    background-size: contain;
+} */

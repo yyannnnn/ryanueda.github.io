@@ -1,0 +1,166 @@
+body { 
+    width: 100%;
+    /* height: 1100%; */
+    background: url(../imgs/4k1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    backdrop-filter: blur(1px) brightness(50%);
+    font-family: Garamond;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond', serif;
+    src:url("Cormorant_Garamond/CormorantGaramond-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src:url(Montserrat/Montserrat-Light.ttf) format("truetype");
+}
+
+.subGallery {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    /* margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    font-size: 50px;
+    font-family: Garamond;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+h1:hover {
+    background-color: white;
+}
+
+form {
+    color: black;
+    position: relative;
+    text-align: center;
+    padding-top: 5%;
+}
+
+h2 {
+    padding-top: 5%;
+    padding-left: 5%;
+    float: left;
+    font-size: 50px;
+    font-family: Garamond;
+    font-weight: 600;
+    color: black;
+}
+
+.photos {
+    padding-top: 5%;
+    float: right;
+    font-family: Garamond;
+    font-weight: 600;
+}
+
+
+video:hover {
+    transform: scale(1.2);
+}
+
+
+
+.vid {
+    padding-top: 5%;
+    float: right;
+    font-family: Garamond;
+    font-weight: 600;
+    transition: transform .2s;
+}
+
+.nsfw {
+    padding-top: 5%;
+    float: right;
+    font-family: Garamond;
+    font-weight: 600;
+}
+
+.yan {
+    padding-top: 1%;
+    float: right;
+    font-family: Garamond;
+    font-weight: 600;
+}
+
+.klaudine {
+    padding-top: 1%;
+    float: right;
+    font-family: Garamond;
+    font-weight: 600;
+}
+
+
+.cat {
+    padding-right: 6.5%;
+    padding-top: 2%;
+}
+
+#plink {
+    font-weight: 800;
+}
+
+#vlink, #plink, #nlink, #klink, #ylink {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+#vlink:hover, #plink:hover, #nlink:hover, #klink:hover, #ylink:hover {
+    color:white;
+}
+
+
+.spaceline1 {
+    background-color: black;
+    width: 90%;
+    /* background-color: rgb(83, 82, 82); */
+    height: 1px;
+    float: left;
+    margin-top: 0.5%;
+    margin-left: 4%;
+    box-shadow: 1px 1px 3px rgb(51, 50, 50);
+}
+
+
+.imgContain {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    padding-top: 4%;
+    padding-left: 4.5%;
+    width: 450px;
+    height: 550px;
+    transition: transform .2s;
+    float: left;
+}
+
+video {
+    padding-left: 4.5%;
+    margin-top: 5%;
+    width: 450px;
+    transition: transform .2s
+}
+
+img:hover {
+    transform: scale(1.2);
+}

@@ -1,0 +1,122 @@
+/*Main Body*/
+html, body {
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+}
+
+@font-face {
+    font-family: 'Abril Fatface', cursive;
+    src: url(Abril_Fatface/AbrilFatface-Regular.ttf) format("truetype");
+}
+
+/*Nav Bar Styles*/
+nav {
+    font-family: 'Abril Fatface', cursive;
+    background-color: #534e53;
+}
+
+nav ul li a {
+    color:black !important;
+}
+
+body header nav a {
+    font-size: 17.8px;
+}
+
+.nav-item {
+    background-color: #dddada;
+    text-align: center;
+}
+
+
+#dropdownNav {
+    margin-top: 0.5%;
+}
+
+#navName {
+    margin-top: 0.5%;
+}
+
+#navStart {
+    margin-left: 75%;
+
+}
+
+a {
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+#containerNav {
+    box-shadow: 60px 100px 60px black;
+}
+
+
+#mainNav {
+    height: 75px;
+    margin-top: -10px;
+    background-color: #dddada;
+    position: fixed;
+    top: 0;
+    z-index: 1000000;
+    box-shadow: 1px 8px 17px rgb(24, 23, 23);
+}
+/* nav {
+    font-family: 'Abril Fatface', cursive;
+    background-color: #534e53;
+}
+
+nav ul li a {
+    color:black !important;
+}
+
+body header nav a {
+    font-size: 17.8px;
+    margin-left: 10px;  
+}
+
+#dropdownNav {
+    margin-top: 0.5%;
+}
+
+#navName {
+    margin-top: 0.5%;
+}
+
+#navStart {
+    margin-left: 0;
+}
+
+a {
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+
+#containerNav {
+    box-shadow: 13px 13px 17px rgb(24, 23, 23);
+}
+
+#mainNav {
+    height: 75px;
+    margin-top: -10px;
+    background-color: #dddada;
+    position: fixed;
+    top: 0;
+    z-index: 1000000;
+    box-shadow: 1px 8px 17px rgb(24, 23, 23);
+} */
+
+
+li:hover {
+    background-color: #C8A2C8;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    box-shadow: 1px 1px 1px #534e53;
+    background-color: #D3D3D3;
+}

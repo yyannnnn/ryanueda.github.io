@@ -1,0 +1,36 @@
+.accordion {
+    margin-top: 10%;
+}
+
+
+img {
+    height: 200px;
+    width: 300px;
+    float: left;
+}
+
+.accordion-item {
+    width: 22%;
+    margin: auto;
+    float: left;
+    margin-left: 9%;
+    position: relative;
+}
+
+h3 {
+    padding-left: 5%;
+    padding-top: 4%;
+}
+
+h4 {
+    margin-top: 3%;
+}
+
+blockquote {
+    margin-left: 5.5%;
+    font-size: 90%;
+}
+
+.accordion-button::after {
+    display: none;
+}

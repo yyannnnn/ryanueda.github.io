@@ -1,0 +1,145 @@
+body { 
+    background: url(../imgs/4k3.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 135%;
+}
+
+/*Main Body*/
+html, body {
+    margin:0;
+    padding:0;
+    width:100%;
+    height: 135%;
+}
+
+
+.card {
+    width: 45%;
+    height: 112%;
+    display: block;
+    margin-top: 10%;
+    margin-left: 28%;
+    margin-right: auto;
+    box-shadow: 15px 15px 17px rgb(24, 23, 23);
+    border-radius: 2%;
+    position: absolute;
+}
+
+h4 {
+    font-size: 60px;
+    padding: 30px;
+    padding-left: 12%;
+}
+
+h5 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 12%;
+    font-size: 30px;
+}
+
+.firstHalf {
+    width: 100%;
+    float: left;
+    margin-left: -1.5%;
+    margin-top: 2%;
+}
+
+.secondHalf {
+    width: 100%;
+    float: left;    
+    padding-top: 5%;
+    margin-left: -1.5%;
+}
+
+
+
+.igimg {
+    border-radius: 50%;
+    width: 70px;
+    float: left;
+    margin-left: 13%;
+}
+
+.steamimg {
+    border-radius: 50%;
+    width: 70px;
+    float: left;
+    margin-left: 13%;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img:hover {
+    box-shadow: 5px 5px 10px rgb(17, 17, 17);
+}
+
+.dropbtn {
+    background-color: #dddada;
+    height: 50px;
+    font-size: 17px;
+    padding-top: 1px;
+    margin-left: 10px;
+    border: none;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+ 
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color: #ddd;}
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+.dropdown:hover .dropbtn {background-color: #C8A2C8;}
+
+
+.spaceline1 {
+    width: 92%;
+    background-color: rgb(83, 82, 82);
+    height: 1px;
+    float: left;
+    margin-top: 11%;
+    margin-left: 4%;
+    box-shadow: 1px 1px 3px rgb(51, 50, 50);
+}
+
+
+.spotify {
+    font-size: 30px;
+    float: left;
+    padding-top: 8%
+}
+
+.spotifyEmbed {
+    margin-left: 11%;
+    margin-bottom: 25%;
+    width: 80%;
+    height: 35%;
+    position: relative;
+    size:inherit;
+}
